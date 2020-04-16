@@ -37,7 +37,7 @@ public class lineMedian {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            writer.close();
+            if (writer != null) writer.close();
         }
     }
     public static void medianCount(List<Integer> list){
@@ -46,7 +46,7 @@ public class lineMedian {
         int len = list.size();
         if(len % 2 == 0 ) {
             medians.add(((double)list.get(len / 2 - 1) + (double)list.get(len / 2 )) / 2);
-        }else {
+        } else {
             medians.add((double)list.get((len - 1) / 2));
         }
     }
