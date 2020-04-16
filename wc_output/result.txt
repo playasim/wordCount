@@ -1,0 +1,13 @@
+call 1
+get 1
+shout 2
+every 2
+everyone 1
+who 2
+a 1
+meeting 1
+out 2
+make 2
+so 1
+holler 1
+big 1
